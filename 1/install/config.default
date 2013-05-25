@@ -1,0 +1,8 @@
+<?php
+$con = mysql_connect('_DB_HOST_','_DB_USER_','_DB_PASSWORD_');
+mysql_select_db('_DB_NAME_', $con);
+
+define('USERNAME','_USERNAME_');
+define('PASSWORD','_PASSWORD_');
+
+?>

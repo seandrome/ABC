@@ -1,0 +1,98 @@
+body{
+	padding:0;
+	margin:30px 0 30px 0;
+	background: url(bodyBg.jpg) 0 0  #000; 
+	color:#424242;
+	font-size:12px;
+	font-family:arial;
+}
+div, h1, h2, p, form, label, input, textarea, img, span{
+	margin:0; padding:0;
+}
+ 
+ul{
+	margin:0; 
+	padding:0; 
+	list-style-type:none;
+}
+.spacer{
+	clear:both; 
+	font-size:0px; 
+	line-height:0px;
+}
+
+#wrap{
+	margin:0 auto;
+	padding: 0 0 20px 0;
+	width:700px;
+	background:#fafafa;
+	border:1px solid #d5d5d5;
+}
+
+#top{
+	height:38px;
+	background:url(top.png) repeat-x 0 0 ;
+	border-bottom:1px solid #d5d5d5;
+}
+#top .title{
+	background:url(top_bg.png) no-repeat 20px 14px;
+	height:38px;
+	line-height:38px;
+	padding:0 0 0 45px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#main {
+	padding:20px 20px 20px 20px;
+	margin:0 0 0 0;	
+}
+
+.subtitle{
+	text-transform:uppercase;
+	margin:20px 0 20px 0;
+	font-weight:bold;
+	text-align:center;
+	line-height:18px;
+}
+
+#formtxt{
+	position:relative;
+	height:40px;
+	border:1px solid #d5d5d5;
+	padding:10px 10px 10px 20px;
+	margin: 0 0 10px 0;
+	line-height:40px;
+}
+
+#formtxt .wraptxt{
+	float:left;
+	width:150px;
+	font-weight:bold;
+}
+
+.input{
+	height:25px;
+	width:455px;
+	border:1px solid #d5d5d5;
+	background:#fff;
+	float:left;
+	margin:8px 0 0 0;
+}
+.button{
+	background:#6c7581;
+	height:45px;
+	width:300px;
+	border:2px solid #4f5a68;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+#warning{
+	color:red;
+	text-transform:uppercase;
+	font-weight:bold;
+	line-height:18px;
+	border:3px solid red;
+	padding:20px;
+	margin: 0 0 20px 0;
+}
